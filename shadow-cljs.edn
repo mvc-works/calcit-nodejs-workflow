@@ -1,13 +1,9 @@
 {
   :source-paths ["src"]
-  :repositories {
-    "central" {:url "https://maven.aliyun.com/nexus/content/groups/public/"}
-    "clojars" {:url "https://mirrors.ustc.edu.cn/clojars/"}
-  }
   :dependencies [
-    [mvc-works/skir "0.0.4"]
+    [mvc-works/skir "0.0.7"]
     [respo/router "0.4.0"]
-    [medley "1.2.0"]
+    [medley "1.3.0"]
   ]
   :builds {
     :app {
